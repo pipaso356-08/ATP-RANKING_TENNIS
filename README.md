@@ -275,7 +275,7 @@ img{
 <body>
 
 <div class="bannerSuperior">
-    <img src="img/banner-atp.png" alt="ATP Banner">
+    <img src="img/banner-atp.jpg" alt="ATP Banner">
 </div>
 
 <h1 class="logoTitulo">
