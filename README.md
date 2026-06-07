@@ -385,11 +385,6 @@ Muchamiel: "img/mutxamiel.jpg",
 LoMoran: "img/lomoran.jpg"
 };
 
-let datos = JSON.parse(localStorage.getItem("ATP_AMIGOS")) || {
-historial:[],
-ultimoRanking:{}
-};
-
 const clubSelect = document.getElementById("club");
 const pistaSelect = document.getElementById("pista");
 
@@ -431,10 +426,6 @@ f.appendChild(o2);
 
 });
 
-}
-
-function guardar(){
-localStorage.setItem("ATP_AMIGOS", JSON.stringify(datos));
 }
 
 function crearClave(club,pista,j1,j2){
